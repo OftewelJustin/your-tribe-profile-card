@@ -12,7 +12,6 @@
 }
 
 body {
-  overflow: hidden; /* Disable scrolling for the entire page */
   background-color: #f6f6f6;
 }
 
