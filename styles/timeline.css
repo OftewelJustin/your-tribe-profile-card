@@ -1,0 +1,17 @@
+.timeline {
+    display: flex;
+}
+
+.timeline-object {
+    align-content: center;
+    text-align: center;
+}
+
+.timeline-line {
+    border: 1px solid black;
+    rotate: 90deg;
+}
+
+.timeline .timeline-object h1 {
+    font-size: 10px;
+}

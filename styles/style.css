@@ -1,48 +1,18 @@
+@import "utils.css";
+@import "card.css";
+@import "socials.css";
+@import "timeline.css";
+@import "hero.css";
+@import "button.css";
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;800&family=Roboto&display=swap');
+
 * {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Karla', sans-serif;
 }
 
-
-.hero-section {
-  position: relative;
-  height: 400px; /* Adjust the height as needed */
+body {
+  overflow: hidden; /* Disable scrolling for the entire page */
+  background-color: #f6f6f6;
 }
 
-.hero-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffff;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.card .profile {
-  width: 50%;
-}
-
-.card h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.btn-primary {
-  background-color: #d3d3d3;
-  border: 0;
-  padding: 12px 18px 12px 18px;
-  border-radius: 10px;
-}

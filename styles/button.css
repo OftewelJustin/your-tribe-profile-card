@@ -1,0 +1,16 @@
+.btn-primary {
+    position: absolute; /* Set the button to absolute positioning */
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    border: 2px solid #624CAB;
+    background-color: white;
+    padding: 12px 18px 12px 18px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #624CAB;
+    color: white;
+}

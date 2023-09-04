@@ -1,0 +1,45 @@
+
+.primary-color {
+    color: #624CAB;
+}
+
+.underline {
+    text-decoration: underline #624CAB;
+}
+
+.my-12 {
+    margin: 3rem 0rem 3rem 0rem;
+}
+
+.mt-12 {
+    margin-top: 3rem;
+}
+
+.mr-12 {
+    margin-right: 3rem;
+}
+
+.ml-12 {
+    margin-left: 3rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.my-6 {
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.my-2 {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
