@@ -80,7 +80,7 @@
 
 @media all and (max-width: 750px) {
     .card {
-        width: 32vh;
+        width: 35vh;
         height: 35vh;
     }
     .card .profile {
