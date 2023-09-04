@@ -1,7 +1,3 @@
-.timeline {
-    display: flex;
-}
-
 .timeline-object {
     align-content: center;
     text-align: center;
@@ -14,4 +10,11 @@
 
 .timeline .timeline-object h1 {
     font-size: 10px;
+}
+
+@media all and (max-width: 750px) {
+    .timeline {
+        margin-bottom: 12rem;
+    }
+
 }
