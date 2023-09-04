@@ -1,25 +1,22 @@
-/* Default styling for the card */
 .card {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ffffff;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     border-radius: 10px;
-    transition: height 0.6s ease;
-    max-width: 90vw; /* Adjust max-width for responsiveness */
-    height: auto;
+    transition: height 0.6s ease; /* Add transition for smooth height change */
+    max-width: 50vh;
+    height: auto; /* Set a default height value */
 }
 
-/* Styling for expanding the card */
 .card.expand {
     height: 70vh;
-    animation: expand 0.5s ease forwards;
+    animation: expand 0.5s ease forwards; /* Keep the final state */
 }
 
-/* Keyframes for expanding animation */
 @keyframes expand {
     0% {
         height: 45vh;
@@ -29,12 +26,10 @@
     }
 }
 
-/* Styling for collapsing the card */
 .card.collapse {
-    animation: collapse 0.5s ease forwards;
+    animation: collapse 0.5s ease forwards; /* Keep the final state */
 }
 
-/* Keyframes for collapsing animation */
 @keyframes collapse {
     0% {
         height: 70vh;
@@ -44,39 +39,40 @@
     }
 }
 
-/* Keyframes for making the content visible */
 @keyframes visible {
     0% {
         opacity: 0;
     }
     100% {
-        opacity: 1; /* Use 1 instead of 100 for opacity value */
+        opacity: 100;
     }
 }
 
-/* Default styling for content */
+
 .content {
     display: none;
     text-align: left;
 }
 
-/* Styling for visible content */
 .content.visible {
     display: block;
     animation: visible 1.2s ease;
 }
 
-/* Adjust font sizes for smaller screens */
-@media screen and (max-width: 768px) {
-    .card h1 {
-        font-size: 24px; /* Adjust font size for headings */
-    }
+.card .profile {
+    width: 50%;
+}
 
-    .card .content h1 {
-        font-size: 20px; /* Adjust font size for content headings */
-    }
+.card h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
-    .card p {
-        font-size: 16px; /* Adjust font size for paragraphs */
-    }
+.card .content h1 {
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
