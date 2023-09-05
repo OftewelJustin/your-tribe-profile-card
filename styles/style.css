@@ -4,14 +4,15 @@
 @import "timeline.css";
 @import "hero.css";
 @import "button.css";
+@import "infoblock.css";
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;800&family=Roboto&display=swap');
 
 * {
-  margin: 0;
-  font-family: 'Karla', sans-serif;
+  margin: 0; /* Removed every standart margin from the page */
+  font-family: 'Karla', sans-serif; /* Changed the font to Karla */
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: var(--off-white); /* Changes the body background to the variable */
 }
 

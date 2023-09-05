@@ -1,15 +1,39 @@
+/* Define custom CSS variables for color and white shades */
+:root {
+    --secondary-color: #f8acff;
+    --primary-color: #624CAB;
+    --white: #ffff;
+    --off-white: #f6f6f6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, auto); /* Two rows with automatic height */
+    gap: 10px; /* Gap between grid items */
+}
+
+/* Apply primary color to text using the .primary-color class */
 .primary-color {
-    color: #624CAB;
+    color: var(--primary-color);
 }
 
+/* Add underline decoration with the primary color using the .underline class */
 .underline {
-    text-decoration: underline #624CAB;
+    text-decoration: underline var(--primary-color);
 }
 
+/* Create an absolute positioning class */
+.absolute {
+    position: absolute;
+}
+
+/* Create a flexbox display class */
 .flex {
     display: flex;
 }
 
+/* Define margin utility classes with different vertical spacings */
 .my-12 {
     margin: 3rem 0rem 3rem 0rem;
 }
@@ -18,6 +42,11 @@
     margin-top: 3rem;
 }
 
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+/* Define margin utility classes with different horizontal spacings */
 .mr-12 {
     margin-right: 3rem;
 }
@@ -26,6 +55,7 @@
     margin-left: 3rem;
 }
 
+/* Define margin utility classes with smaller vertical spacings */
 .mt-8 {
     margin-top: 2rem;
 }
@@ -34,6 +64,7 @@
     margin: 1.5rem 0rem 1.5rem 0rem;
 }
 
+/* Define margin utility classes with even smaller vertical spacings */
 .mt-6 {
     margin-top: 1.5rem;
 }
@@ -42,7 +73,7 @@
     margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
+/* Define margin utility classes with the smallest vertical spacing */
 .mt-2 {
     margin-top: 0.5rem;
 }
-

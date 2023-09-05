@@ -1,12 +1,12 @@
 .socials {
-    justify-content: center;
-    padding-bottom: 1rem;
+    justify-content: center; /* Justify the content to the center */
+    padding-bottom: 1rem; /* Adding padding to the bottom */
 }
 
 .socials a {
-    text-decoration: none;
+    text-decoration: none; /* Removes the text decoration from the link in socials */
 }
 
 .socials a img {
-    width: 14%;
+    width: 14%; /* Makes the image 86% smaller then normal size */
 }

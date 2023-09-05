@@ -3,22 +3,21 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    padding: 40px;
+    background-color: var(--white);
+    padding: 40px 40px 10vh 40px;
     text-align: center;
     border-radius: 10px;
-    transition: height 0.6s ease; /* Add transition for smooth height change */
-    max-width: 50vh;
-    height: 45vh;
+    transition: height 0.6s ease;
+    max-width: 25em;
+    height: 20em;
 }
 
 .card.expand {
-    height: 70vh;
-    animation: expand 0.5s ease forwards; /* Keep the final state */
+    animation: expand 0.5s ease forwards;
 }
 
 .card.collapse {
-    animation: collapse 0.5s ease forwards; /* Keep the final state */
+    animation: collapse 0.5s ease forwards;
 }
 
 .content {
@@ -28,13 +27,19 @@
 
 .content.visible {
     display: block;
-    animation: visible 1.2s ease;
+    animation: visible 2s ease;
 }
 
+.content.invisible {
+    animation: invisible 1.2s ease;
+}
+
+/* Define styles for the profile image */
 .card .profile {
     width: 50%;
 }
 
+/* Define styles for headings and paragraphs */
 .card h1 {
     font-size: 32px;
     margin-bottom: 10px;
@@ -49,13 +54,13 @@
     margin-bottom: 20px;
 }
 
-
+/* Keyframes for card expansion and collapse animations */
 @keyframes collapse {
     0% {
-        height: 70vh;
+        height: 40em;
     }
     100% {
-        height: 45vh;
+        height: 20em;
     }
 }
 
@@ -64,28 +69,39 @@
         opacity: 0;
     }
     100% {
-        opacity: 100;
+        opacity: 1;
     }
 }
 
+@keyframes invisible {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 @keyframes expand {
     0% {
-        height: 45vh;
+        height: 20em;
     }
     100% {
-        height: 70vh;
+        height: 40em;
     }
 }
 
+/* Media query for smaller screens */
 @media all and (max-width: 750px) {
     .card {
         width: 35vh;
         height: 35vh;
     }
+
     .card .profile {
         width: 40%;
     }
+
     .card h1 {
         font-size: 28px;
         margin-bottom: 10px;
@@ -94,10 +110,13 @@
     .card .content h1 {
         font-size: 20px;
     }
+
     .card p {
         font-size: 14px;
         margin-bottom: 20px;
     }
+
+    /* Adjust keyframes for card expansion and collapse animations for smaller screens */
     @keyframes expand {
         0% {
             height: 35vh;

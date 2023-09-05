@@ -1,14 +1,16 @@
+/* Define styles for the hero section container */
 .hero-section {
     position: relative;
     height: 100vh; /* Use viewport height to cover the entire screen */
     overflow: hidden; /* Hide any overflow content */
 }
 
+/* Define styles for the hero image within the hero section */
 .hero-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100%;
+    position: absolute; /* Position the image absolutely within the hero section */
+    top: 0; /* Align the image to the top of the container */
+    left: 0; /* Align the image to the left of the container */
+    width: 100vw; /* Set the image width to cover the entire viewport width */
+    height: 100%; /* Set the image height to match the container's height */
     z-index: -1; /* Set the background image behind other content */
 }
