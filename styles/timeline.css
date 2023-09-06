@@ -6,18 +6,11 @@
 
 /* Styles for the timeline line */
 .timeline-line {
-    border: 1px solid black; /* Create a solid black line for the timeline */
+    border: 1px solid var(--primary-color); /* Create a solid black line for the timeline */
     rotate: 90deg; /* Rotate the line 90 degrees (appears to be incorrect, should be "transform: rotate(90deg)") */
 }
 
 /* Styles for the timeline object's heading within the timeline */
 .timeline .timeline-object h1 {
     font-size: 10px; /* Set a font size of 10px for the timeline object's heading */
-}
-
-/* Media query for screens with a maximum width of 750px */
-@media all and (max-width: 750px) {
-    .timeline {
-        margin-bottom: 12rem; /* Add margin at the bottom of the timeline container */
-    }
 }

@@ -8,8 +8,8 @@
     text-align: center;
     border-radius: 10px;
     transition: height 0.6s ease;
-    max-width: 25em;
-    height: 20em;
+    width: 30em;
+    height: 12em;
 }
 
 .card.expand {
@@ -39,28 +39,23 @@
     width: 50%;
 }
 
-/* Define styles for headings and paragraphs */
-.card h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.card .content h1 {
-    font-size: 28px;
-}
-
-.card p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
 
 /* Keyframes for card expansion and collapse animations */
-@keyframes collapse {
+@keyframes expand {
     0% {
-        height: 40em;
+        height: 12em;
     }
     100% {
-        height: 20em;
+        height: 30em;
+    }
+}
+
+@keyframes collapse {
+    0% {
+        height: 30em;
+    }
+    100% {
+        height: 12em;
     }
 }
 
@@ -79,59 +74,5 @@
     }
     100% {
         opacity: 0;
-    }
-}
-
-@keyframes expand {
-    0% {
-        height: 20em;
-    }
-    100% {
-        height: 40em;
-    }
-}
-
-/* Media query for smaller screens */
-@media all and (max-width: 750px) {
-    .card {
-        width: 35vh;
-        height: 35vh;
-    }
-
-    .card .profile {
-        width: 40%;
-    }
-
-    .card h1 {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
-
-    .card .content h1 {
-        font-size: 20px;
-    }
-
-    .card p {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-
-    /* Adjust keyframes for card expansion and collapse animations for smaller screens */
-    @keyframes expand {
-        0% {
-            height: 35vh;
-        }
-        100% {
-            height: 70vh;
-        }
-    }
-
-    @keyframes collapse {
-        0% {
-            height: 70vh;
-        }
-        100% {
-            height: 35vh;
-        }
     }
 }

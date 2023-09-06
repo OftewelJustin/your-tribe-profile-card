@@ -1,0 +1,127 @@
+/* Small devices such as large phones (360px and up) */
+@media only screen and (min-width: 22.5em) {
+    .card {
+        width: 35vh;
+        height: 19vh;
+        padding: 10px;
+    }
+
+    .card .profile {
+        width: 50%;
+    }
+
+    .card h1 {
+        font-size: 1.3em;
+        line-height: 1em;
+    }
+
+    .card .content h1 {
+        font-size: 1.1em;
+    }
+
+    .card .content .timeline p {
+        font-size: 0.4em;
+    }
+
+    .card .content .timeline-line {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .card p {
+        font-size: 0.8em;
+    }
+
+    .btn-primary {
+        transform: translateX(0%); /* Center horizontally */
+        border-radius: 7px;
+        padding: 8px 14px 8px 14px;
+    }
+
+    .socials {
+        margin-top: 0.3em;
+    }
+
+    /* Adjust keyframes for card expansion and collapse animations for smaller screens */
+    @keyframes expand {
+        0% {
+            height: 19vh;
+        }
+        100% {
+            height: 50vh;
+        }
+    }
+
+    @keyframes collapse {
+        0% {
+            height: 50vh;
+        }
+        100% {
+            height: 19vh;
+        }
+    }
+
+}
+
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
+    .card {
+        width: 40vh;
+        height: 19vh;
+        padding: 10px;
+    }
+
+    .card .profile {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card h1 {
+        font-size: 2.5em;
+        line-height: 1em;
+    }
+
+    .card .content h1 {
+        font-size: 1.5em;
+    }
+
+    .card .content .timeline h1 {
+        font-size: 4em;
+    }
+
+    .card p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust keyframes for card expansion and collapse animations for smaller screens */
+    @keyframes expand {
+        0% {
+            height: 19vh;
+        }
+        100% {
+            height: 50vh;
+        }
+    }
+
+    @keyframes collapse {
+        0% {
+            height: 50vh;
+        }
+        100% {
+            height: 19vh;
+        }
+    }
+
+}
+
+/*!* Medium devices such as tablets (768px and up) *!*/
+/*@media only screen and (min-width: 48em) {...}*/
+
+/*!* Large devices such as laptops (1024px and up) *!*/
+/*@media only screen and (min-width: 64em) {...}*/
+
+/*!* Largest devices such as desktops (1280px and up) *!*/
+/*@media only screen and (min-width: 80em) {...}*/
+
