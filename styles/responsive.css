@@ -33,9 +33,25 @@
     }
 
     .btn-primary {
-        transform: translateX(0%); /* Center horizontally */
-        border-radius: 7px;
-        padding: 8px 14px 8px 14px;
+        display: none;
+    }
+
+    .phone {
+        height: 1.6em;
+        width: 1.6em;
+        border-radius: 7em;
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position: absolute;
+        top: 1em;
+        left: 87%; /* Center horizontally */
+        background-color: var(--primary-color);
+    }
+
+
+    .rotate i{
+        rotate: 180deg;
     }
 
     .socials {
@@ -67,9 +83,9 @@
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 40em) {
     .card {
-        width: 40vh;
-        height: 19vh;
-        padding: 10px;
+        width: 47vh;
+        height: 26vh;
+        padding: 20px;
     }
 
     .card .profile {
@@ -90,6 +106,11 @@
         font-size: 4em;
     }
 
+    .card .content .timeline-line {
+        margin-right: 4em;
+        margin-left: 4em;
+    }
+
     .card p {
         font-size: 1em;
         margin-bottom: 20px;
@@ -98,30 +119,80 @@
     /* Adjust keyframes for card expansion and collapse animations for smaller screens */
     @keyframes expand {
         0% {
-            height: 19vh;
+            height: 26vh;
         }
         100% {
-            height: 50vh;
+            height: 55vh;
         }
     }
 
     @keyframes collapse {
         0% {
-            height: 50vh;
+            height: 55vh;
         }
         100% {
-            height: 19vh;
+            height: 26vh;
         }
     }
 
 }
 
 /*!* Medium devices such as tablets (768px and up) *!*/
-/*@media only screen and (min-width: 48em) {...}*/
+@media only screen and (min-width: 48em) {
+    .card {
+        width: 56vh;
+        height: 26vh;
+        padding: 20px;
+    }
 
-/*!* Large devices such as laptops (1024px and up) *!*/
-/*@media only screen and (min-width: 64em) {...}*/
+    .card .profile {
+        width: 50%;
+        height: 50%;
+    }
 
-/*!* Largest devices such as desktops (1280px and up) *!*/
-/*@media only screen and (min-width: 80em) {...}*/
+    .card h1 {
+        font-size: 2.5em;
+        line-height: 1em;
+    }
+
+    .card .content h1 {
+        font-size: 1.5em;
+    }
+
+    .card .content .timeline h1 {
+        font-size: 4em;
+    }
+
+    .card .content .timeline-line {
+        margin-right: 6em;
+        margin-left: 6em;
+    }
+
+    .card p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust keyframes for card expansion and collapse animations for smaller screens */
+    @keyframes expand {
+        0% {
+            height: 26vh;
+        }
+        100% {
+            height: 55vh;
+        }
+    }
+
+    @keyframes collapse {
+        0% {
+            height: 55vh;
+        }
+        100% {
+            height: 26vh;
+        }
+    }
+
+}
+
+
 

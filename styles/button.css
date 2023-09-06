@@ -17,3 +17,8 @@
     background-color: var(--primary-color); /* Change background color on hover */
     color: white; /* Change text color on hover */
 }
+
+
+.phone {
+    display: none;
+}
