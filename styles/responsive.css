@@ -156,6 +156,10 @@
         line-height: 1em;
     }
 
+    .card .content .timeline p {
+        font-size: 0.5em;
+    }
+
     .card .content h1 {
         font-size: 1.5em;
     }
@@ -165,14 +169,15 @@
     }
 
     .card .content .timeline-line {
-        margin-right: 6em;
-        margin-left: 6em;
+        margin-right: 5.5em;
+        margin-left: 5.5em;
     }
 
     .card p {
         font-size: 1em;
         margin-bottom: 20px;
     }
+
 
     /* Adjust keyframes for card expansion and collapse animations for smaller screens */
     @keyframes expand {
