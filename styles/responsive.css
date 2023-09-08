@@ -8,7 +8,7 @@
     }
 
     .card .profile {
-        width: 50%;
+        width: 40%;
     }
 
     .card h1 {
@@ -24,6 +24,10 @@
         font-size: 0.4em;
     }
 
+    .timeline-object img {
+        width: 40%;
+    }
+
     .card .content .timeline-line {
         margin-right: 2em;
         margin-left: 2em;
@@ -31,28 +35,6 @@
 
     .card p {
         font-size: 0.8em;
-    }
-
-    .btn-primary {
-        display: none;
-    }
-
-    .phone {
-        height: 1.6em;
-        width: 1.6em;
-        border-radius: 7em;
-        display: flex; /* Use flexbox */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        position: absolute;
-        top: 1em;
-        left: 87%; /* Center horizontally */
-        background-color: var(--primary-color);
-    }
-
-
-    .rotate i{
-        rotate: 180deg;
     }
 
     .socials {
@@ -90,8 +72,8 @@
     }
 
     .card .profile {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
     }
 
     .card h1 {
@@ -110,6 +92,10 @@
     .card .content .timeline-line {
         margin-right: 4em;
         margin-left: 4em;
+    }
+
+    .timeline-object img {
+        width: 60%;
     }
 
     .card p {
@@ -146,9 +132,9 @@
         padding: 20px;
     }
 
-    .card .profile {
-        width: 50%;
-        height: 50%;
+    .card .profile img{
+        width: 40%;
+        height: 40%;
     }
 
     .card h1 {

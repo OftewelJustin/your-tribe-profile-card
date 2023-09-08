@@ -1,16 +1,16 @@
-/* Styles for the timeline object */
+/* Stijlen voor het object in de tijdlijn */
 .timeline-object {
-    align-content: center; /* Center align content horizontally within the object */
-    text-align: center; /* Center align text horizontally within the object */
+    align-content: center; /* Horizontaal uitlijnen van de inhoud in het object in het midden */
+    text-align: center; /* Horizontaal uitlijnen van tekst in het object in het midden */
 }
 
-/* Styles for the timeline line */
+/* Stijlen voor de tijdlijnlijn */
 .timeline-line {
-    border: 1px solid var(--primary-color); /* Create a solid black line for the timeline */
-    rotate: 90deg; /* Rotate the line 90 degrees (appears to be incorrect, should be "transform: rotate(90deg)") */
+    border: 1px solid var(--primary-color); /* Creëer een solide lijn in de kleur van de primaire kleur voor de tijdlijn */
+    transform: rotate(90deg); /* Draai de lijn 90 graden (lijkt onjuist te zijn, moet zijn "transform: rotate(90deg)") */
 }
 
-/* Styles for the timeline object's heading within the timeline */
+/* Stijlen voor de kop van het object in de tijdlijn binnen de tijdlijn */
 .timeline .timeline-object h1 {
-    font-size: 10px; /* Set a font size of 10px for the timeline object's heading */
+    font-size: 10px; /* Stel een lettergrootte in van 10px voor de kop van het object in de tijdlijn */
 }

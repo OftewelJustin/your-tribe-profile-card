@@ -1,7 +1,8 @@
+/* Stijlen voor het grid-item */
 .grid-item {
-    color: var(--white);
-    background-color: var(--primary-color);
-    border-radius: 0.5em;
-    text-align: center;
-    padding: 20px;
+    color: var(--white); /* Tekstkleur ingesteld op de witte kleurvariabele */
+    background-color: var(--primary-color); /* Achtergrondkleur ingesteld op de primaire kleurvariabele */
+    border-radius: 0.5em; /* Afgeronde hoeken met een straal van 0,5em */
+    text-align: center; /* Tekst uitlijnen in het midden van het grid-item */
+    padding: 20px; /* Ruimte toevoegen binnen het grid-item */
 }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="clip-carret_up">
+      <rect width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <g id="carret_up" clip-path="url(#clip-carret_up)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M116.715,17.989a21,21,0,0,1,31.569,0l86.134,98.161C246.328,129.721,236.691,151,218.634,151H46.366c-18.056,0-27.694-21.279-15.785-34.851Z" transform="translate(-4 53)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,12 +1,17 @@
+/* Stijlen voor het centraal uitlijnen van de inhoud in .socials */
 .socials {
-    justify-content: center; /* Justify the content to the center */
-    padding-bottom: 1rem; /* Adding padding to the bottom */
+    justify-content: center; /* Centreer de inhoud horizontaal */
+    padding-bottom: 1rem; /* Voeg ruimte toe aan de onderkant */
 }
 
+/* Stijlen voor de links binnen .socials */
 .socials a {
-    text-decoration: none; /* Removes the text decoration from the link in socials */
+    text-decoration: none; /* Verwijder de tekstdecoratie van de link in .socials */
+    color: var(--primary-color); /* Gebruik de primaire kleur voor de tekstkleur van de link */
+    width: 50%; /* Stel de breedte van de link in op 50% van de oudercontainer */
 }
 
+/* Stijlen voor afbeeldingen binnen de links in .socials */
 .socials a img {
-    width: 30%; /* Makes the image 86% smaller then normal size */
+    width: 35%; /* Stel de breedte van de afbeelding in op 35% van de linkbreedte */
 }

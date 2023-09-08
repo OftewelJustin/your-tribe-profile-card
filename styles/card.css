@@ -1,3 +1,4 @@
+/* Stijlen voor de kaart */
 .card {
     position: relative;
     top: 50%;
@@ -12,35 +13,39 @@
     height: 12em;
 }
 
+/* Stijlen voor de uitgebreide kaart */
 .card.expand {
     animation: expand 0.5s ease forwards;
 }
 
+/* Stijlen voor de ingeklapte kaart */
 .card.collapse {
     animation: collapse 0.5s ease forwards;
 }
 
+/* Stijlen voor de inhoud van de kaart */
 .content {
     display: none;
     text-align: left;
 }
 
+/* Stijlen voor zichtbare inhoud */
 .content.visible {
     display: block;
     animation: visible 2s ease;
 }
 
+/* Stijlen voor onzichtbare inhoud */
 .content.invisible {
     animation: invisible 1.2s ease;
 }
 
-/* Define styles for the profile image */
+/* Definieer stijlen voor het profielafbeelding */
 .card .profile {
     width: 50%;
 }
 
-
-/* Keyframes for card expansion and collapse animations */
+/* Keyframes voor kaartuitbreidings- en inklapanimaties */
 @keyframes expand {
     0% {
         height: 12em;
@@ -59,6 +64,7 @@
     }
 }
 
+/* Keyframes voor zichtbaarheid van inhoud */
 @keyframes visible {
     0% {
         opacity: 0;

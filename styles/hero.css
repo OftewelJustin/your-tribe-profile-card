@@ -1,16 +1,16 @@
-/* Define styles for the hero section container */
+/* Definieer stijlen voor de container van de heldensectie */
 .hero-section {
     position: relative;
-    height: 100vh; /* Use viewport height to cover the entire screen */
-    overflow: hidden; /* Hide any overflow content */
+    height: 100vh; /* Gebruik de hoogte van het viewport om het hele scherm te bedekken */
+    overflow: hidden; /* Verberg eventuele overloopinhoud */
 }
 
-/* Define styles for the hero image within the hero section */
+/* Definieer stijlen voor de heldenafbeelding binnen de heldensectie */
 .hero-image img {
-    position: absolute; /* Position the image absolutely within the hero section */
-    top: 0; /* Align the image to the top of the container */
-    left: 0; /* Align the image to the left of the container */
-    width: 100vw; /* Set the image width to cover the entire viewport width */
-    height: 100%; /* Set the image height to match the container's height */
-    z-index: -1; /* Set the background image behind other content */
+    position: absolute; /* Positioneer de afbeelding absoluut binnen de heldensectie */
+    top: 0; /* Lijn de afbeelding uit met de bovenkant van de container */
+    left: 0; /* Lijn de afbeelding uit met de linkerkant van de container */
+    width: 100vw; /* Stel de breedte van de afbeelding in om de volledige viewport-breedte te bedekken */
+    height: 100%; /* Stel de hoogte van de afbeelding in om overeen te komen met de hoogte van de container */
+    z-index: -1; /* Plaats de achtergrondafbeelding achter andere inhoud */
 }

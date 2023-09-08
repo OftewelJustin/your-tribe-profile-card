@@ -1,47 +1,50 @@
-/* Define custom CSS variables for color and white shades */
+/* Definieer aangepaste CSS-variabelen voor kleuren en witte tinten */
 :root {
-    --secondary-color: #f8acff;
-    --primary-color: #624CAB;
-    --white: #ffff;
-    --off-white: #f6f6f6;
+    --secondary-color: #f8acff; /* Secundaire kleur variabele */
+    --primary-color: #624CAB; /* Primaire kleur variabele */
+    --white: #ffff; /* Witte kleur variabele */
+    --off-white: #f6f6f6; /* Off-witte kleur variabele */
 }
 
+/* Stijlen voor de grid-container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: repeat(2, auto); /* Two rows with automatic height */
-    gap: 10px; /* Gap between grid items */
+    grid-template-columns: repeat(2, 1fr); /* Twee kolommen */
+    grid-template-rows: repeat(2, auto); /* Twee rijen met automatische hoogte */
+    gap: 10px; /* Ruimte tussen grid-items */
 }
 
-/* Apply primary color to text using the .primary-color class */
+/* Pas de primaire kleur toe op tekst met behulp van de .primary-color-klasse */
 .primary-color {
     color: var(--primary-color);
 }
 
+/* Pas de secundaire kleur toe op tekst met behulp van de .secondary-color-klasse */
 .secondary-color {
     color: var(--secondary-color);
 }
 
-/* Add underline decoration with the primary color using the .underline class */
+/* Voeg een onderstreping toe met de primaire kleur met behulp van de .underline-klasse */
 .underline {
     text-decoration: underline var(--primary-color);
 }
 
+/* Stel tekst links uit met de .text-left-klasse */
 .text-left {
     text-align: left;
 }
 
-/* Create an absolute positioning class */
+/* Maak een absolute positioneringsklasse */
 .absolute {
     position: absolute;
 }
 
-/* Create a flexbox display class */
+/* Maak een flexbox weergaveklasse */
 .flex {
     display: flex;
 }
 
-/* Define margin utility classes with different vertical spacings */
+/* Definieer margehulpprogramma-klassen met verschillende verticale ruimtes */
 .my-12 {
     margin: 3rem 0rem 3rem 0rem;
 }
@@ -54,7 +57,7 @@
     margin-bottom: 3rem;
 }
 
-/* Define margin utility classes with different horizontal spacings */
+/* Definieer margehulpprogramma-klassen met verschillende horizontale ruimtes */
 .mr-12 {
     margin-right: 3rem;
 }
@@ -63,7 +66,7 @@
     margin-left: 3rem;
 }
 
-/* Define margin utility classes with smaller vertical spacings */
+/* Definieer margehulpprogramma-klassen met kleinere verticale ruimtes */
 .mt-8 {
     margin-top: 2rem;
 }
@@ -76,7 +79,7 @@
     margin: 1.5rem 0rem 1.5rem 0rem;
 }
 
-/* Define margin utility classes with even smaller vertical spacings */
+/* Definieer margehulpprogramma-klassen met nog kleinere verticale ruimtes */
 .mt-6 {
     margin-top: 1.5rem;
 }
@@ -89,7 +92,7 @@
     margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
-/* Define margin utility classes with the smallest vertical spacing */
+/* Definieer margehulpprogramma-klassen met de kleinste verticale ruimte */
 .mt-2 {
     margin-top: 0.5rem;
 }
@@ -98,14 +101,17 @@
     margin-bottom: 0.5rem;
 }
 
+/* Zet tekst om naar hoofdletters met de .uppercase-klasse */
 .uppercase {
     text-transform: uppercase;
 }
 
+/* Maak tekst vet met de .font-bold-klasse */
 .font-bold {
     font-weight: 700;
 }
 
+/* Stijlen voor verschillende tekstgroottes */
 .text-xxs {
     font-size: 0.6255rem; /* 12px */
     line-height: 1rem; /* 16px */
