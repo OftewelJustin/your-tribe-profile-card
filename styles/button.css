@@ -5,8 +5,8 @@
 
 /* Stijlen voor het telefoonpictogram */
 .phone {
-    height: 1.6em;
-    width: 1.6em;
+    height: 2em;
+    width: 2em;
     border-radius: 7em;
     display: flex; /* Gebruik flexbox */
     justify-content: center; /* Horizontaal centreren */
@@ -15,11 +15,12 @@
     top: 1em;
     left: 87%; /* Horizontaal centreren */
     background-color: var(--primary-color);
+    border: none;
 }
 
 /* Stijlen voor het telefoonpictogram binnenin */
 .phone img {
-    width: 50%;
+    width: 100%;
 }
 
 /* Stijlen om een afbeelding binnen de .rotate-klasse 180 graden te roteren */

@@ -2,9 +2,10 @@
 @media only screen and (min-width: 22.5em) {
 
     .card {
-        width: 35vh;
-        height: 19vh;
+        width: auto;
+        height: auto;
         padding: 10px;
+        margin: 0rem 5rem 0rem 0rem;
     }
 
     .card .profile {
@@ -66,9 +67,10 @@
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 40em) {
     .card {
-        width: 47vh;
-        height: 26vh;
+        width: auto;
+        height: auto;
         padding: 20px;
+        margin: 0rem 10rem 0rem 0rem;
     }
 
     .card .profile {
@@ -184,6 +186,15 @@
         }
     }
 
+}
+
+@media only screen and (min-width: 48em) {
+    .card {
+        width: 30em;
+        height: 13em;
+        padding: 20px;
+        margin: 0rem 10rem 0rem 0rem;
+    }
 }
 
 
